@@ -1,0 +1,96 @@
+@font-face {
+	font-family: caps;
+	src: url(../fonts/caps.ttf);
+}
+
+@font-face {
+	font-family: normal;
+	src: url(../fonts/normal-bold.ttf);
+}
+
+
+
+
+
+
+*{
+	max-width: 1084px;
+	margin: 0 auto;
+	text-decoration: none;
+	list-style: none;
+	font-family: normal;
+
+}
+
+body {
+	max-width: 1084px;
+	margin: 0 auto;
+}
+
+header,
+ul {
+	display: flex;
+	justify-content: space-between;
+}
+
+header{
+	height: 60px;
+	justify-content: space-between;
+	align-items: center;
+	border: 1px solid red
+}
+
+.burger {
+	display: none;
+	width: 20px;
+	height: 20px;
+	background-color: ;
+	border-radius: 10px;
+	flex-direction: column;
+
+}
+
+.header_navigation {
+	width: 214px;
+	justify-content: space-between;
+	align-content: center;
+	margin: 100px;
+
+
+}
+
+.header_navigation2 {
+	width: 214px;
+	justify-content: space-between;
+	margin-right: 100px
+
+
+a {
+	color: #181818;
+	transition: 300ms color ease;
+}
+
+a:hover {
+	color: #BADC58;
+	transition: 300ms color ease;
+}
+
+.active1{
+	width: 214px;
+	justify-content: space-between;
+}
+
+a, h1, h2, h3, address {
+	font-family: caps;
+}
+
+.hero{
+	width: 100%;
+	height: calc(100vh-60px);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	
+}
+
